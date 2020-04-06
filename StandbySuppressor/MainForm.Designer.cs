@@ -73,12 +73,13 @@
             this.cmbMethod.FormattingEnabled = true;
             this.cmbMethod.Items.AddRange(new object[] {
             "PowerAvailabilityRequests",
-            "SetThreadExecutionState"});
+            "SetThreadExecutionState",
+            "MouseMover"});
             this.cmbMethod.Location = new System.Drawing.Point(20, 73);
             this.cmbMethod.Name = "cmbMethod";
             this.cmbMethod.Size = new System.Drawing.Size(242, 24);
             this.cmbMethod.TabIndex = 3;
-            this.cmbMethod.SelectedIndex = 0;
+            this.cmbMethod.Text = "PowerAvailabilityRequests";
             // 
             // label1
             // 
@@ -114,6 +115,7 @@
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "StandbySuppressor";
             this.ResumeLayout(false);
